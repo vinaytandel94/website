@@ -5,4 +5,4 @@ I have used Youtube tutorial for building HTML website with responsive layout
 (https://www.youtube.com/watch?v=Wm6CUkswsNw&t=2677s) from this video 
 I have managed to create a responsive web page layout and added all the pages that I needed.
 
-
+# Added all the contain for home page with information and images and also created ccs for contain structure.
