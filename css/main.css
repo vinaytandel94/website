@@ -5,6 +5,8 @@ body{
   background-color:#f4f4f4;
 }
 
+
+
 /* Header */
 header {
 	background:#35424a;
@@ -56,7 +58,6 @@ header .highlight, header .current a{
 header a:hover{
   color:#cccccc;
 }
-
 
 
 
@@ -138,6 +139,29 @@ header a:hover{
 
 
 
+/* Imaged Infos */
+#imagedinfos {
+  margin-top:20px;
+  text-align: center;
+}
+#imagedinfos .box {
+  display: inline-block;
+  vertical-align: top;
+  margin:30px 20px 0 20px;
+  width: 44%;
+}
+#imagedinfos .box img{
+  width: 75%;
+  height: auto;
+  min-width: 100px;
+  max-width: 400px;
+}
+#imagedinfos p {
+	display: inline-block;
+	max-width: 400px;
+}
+
+
 
 /* Footer */
 footer {
@@ -152,9 +176,11 @@ footer {
 
 
 
-
 /* Media Queries */
 @media screen and (max-width: 883px){
+  header #branding,
+  header nav,
+  header nav li{
     float:none;
     text-align:center;
     width:100%;
