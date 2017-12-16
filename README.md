@@ -11,3 +11,7 @@ I have managed to create a responsive web page layout and added all the pages th
 I have managed to add alt attribute for the image.
 
 #created event.html page and adding image transition. 
+#event.html page was really difficult to built as I have tried to add ccs transition on a image. 
+The probblem was that the transition was not working as I expected to work. Therefore,
+I have used W3SCHOOL website for image transition and it worked fine.
+https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_image_overlay_slideleft 
