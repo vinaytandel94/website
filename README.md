@@ -17,4 +17,5 @@ I have used W3SCHOOL website for image transition and it worked fine.
 https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_image_overlay_slideleft 
 
 #In the contact.html page. I have decided to add google map and location for the resturant. 
-The problem I have facing was that I couldn't add the location to the google map and did some research. 
+The problem I have facing was that I couldn't add the location to the google map and did some research to make it work.
+ 

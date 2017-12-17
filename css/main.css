@@ -60,7 +60,6 @@ header a:hover{
 }
 
 
-
 /* Home Page */
 #maininfo {
   padding: 40px 0;
@@ -257,7 +256,7 @@ footer {
 	  padding: 0 0 10px 0;
   }
     
-  .map {
+	.map {
 	  height: 350px;
   }
   
