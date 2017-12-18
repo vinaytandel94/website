@@ -1,3 +1,4 @@
+
 body{
   font: 15px/1.5 Helvetica,sans-serif;
   padding:0;
@@ -5,24 +6,27 @@ body{
   background-color:#f4f4f4;
 }
 
-
-
 /* Header */
 header {
 	background:#35424a;
 	color:#ffffff;
 	padding-top:30px;
 	min-height:70px;
-	border-bottom:#cd950c 3px solid;
+	border-bottom:#cd950c 5px solid;
 }
 .container{
   width:80%;
   margin:auto;
   overflow:hidden;
+  padding: 0 0 10px 0;
 }
 
 header #branding{
-  float:left;
+   /*float:left;*/
+    float:none;
+	margin: 0 0 10px 0;
+    text-align:center;
+    width:100%;
 }
 header #branding h1{
   margin:0;
@@ -41,7 +45,7 @@ header li{
   display:inline;
   padding: 0 20px 0 20px;
 }
-header ul li a{
+header main a{
   color:#ffffff;
   text-decoration:none;
   text-transform: uppercase;
@@ -57,6 +61,8 @@ header .highlight, header .current a{
 }
 header a:hover{
   color:#cccccc;
+} main {
+	text-align: center;
 }
 
 
@@ -174,7 +180,7 @@ header a:hover{
   transition: .5s ease;
 }
 
-.container:hover .overlay {
+.box:hover .overlay {
   width: 100%;
 }
 
@@ -238,24 +244,63 @@ footer {
 
 
 /* Media Queries */
-@media screen and (max-width: 883px){
-  header #branding,
-  header nav,
-  header nav li{
+@media screen and (max-width: 1000px){
+  header #branding {
     float:none;
     text-align:center;
     width:100%;
   }
-  
   header nav {
 	  margin: 8px 0;
   }
-    .container {
-	  padding: 0 0 10px 0;
-  }
-    
+}
+
+
+.button {
+  font-size: 1em;
+  background: #0000;
+  text-align: center;
+  padding: 14px 0;
+}
+.button:hover {
+	background-color: rgba(0, 0, 0, .4);
+    border: none;
+    color: white;
+    text-decoration: none;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+.selected {
+	color: #eee;
+	background-color: #cd950c;
+}.selected:hover {
+	background-color: rgba(205, 149, 12, 0.8);
+	
+}	h3 {
+	margin: 0;
+}
+
+/* For mobile phones: */
+@media screen and (min-width: 500px) {
+	.button{
+		width: 45%;
+		display: inline-block;
+	}
 	#map {
 	  height: 350px;
-  }
-  
+	}
 }
+@media screen and (min-width: 1000px) {
+	.button{
+		width: 22%;
+	}
+	.container {
+	  padding: 0;
+	}
+	#map {
+	  height: 450px;
+	}
+}
+
+
