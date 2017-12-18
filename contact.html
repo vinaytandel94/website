@@ -26,15 +26,34 @@
 		
 		<section id="maininfo" class="beforeFooter">
 			<div class="container">
-			    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d9684.516105294471!2d-1.1286664!3d52.6395819!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x33fd209d436327c6!2sAl+Majlis!5e0!3m2!1sen!2suk!4v1513545700583" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-				
+				<div id="map"></div>
+			    <!--<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d9684.516105294471!2d-1.1286664!3d52.6395819!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x33fd209d436327c6!2sAl+Majlis!5e0!3m2!1sen!2suk!4v1513545700583" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>-->
 				<h2>Contact Information</h2>
 				<p>ADDRESS: 6 Dryden Street<br>Leicester, United Kingdom</p>
 				<p>PHONE:<br>0116 253 2019</p>
 				<p>EMAIL:<br>almajlisshisha@hotmail.co.uk</p>
 			</div>
 		</section>
-
+		
+		<script>
+			function initMap() {
+				var uluru = new google.maps.LatLng(52.639583, -1.128667);
+				var mapOptions = {
+					center: uluru,
+					zoom: 15
+				}
+				var map = new google.maps.Map(document.getElementById("map"), mapOptions);
+				var marker = new google.maps.Marker({
+					position: uluru,
+					map: map
+				});
+			}
+		</script>
+		
+		<script async defer
+			src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAmUNc7_SUhxqjvOefaxbJZUDzAld1oMy4&callback=initMap">
+		</script>
+		
 		<footer>
 			<p>Almajlis, Copyright &copy; 2017</p>
 		</footer>
