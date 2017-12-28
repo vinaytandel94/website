@@ -24,5 +24,7 @@ The problem I have facing was that I couldn't add the location to the google map
 I have over come the issue by adding API key from Google and also found the right coordinates for the location (52.639583, -1.128667);,
 
 #[social media buttons]
-On the contact page I have decided to add social media buttons. 
+On the contact page I have decided to add social media buttons.
+
+before uploading the work I have used HTML Validator and Accessibility checker and CSS Validator. However, did not managed to solve all the issues as I could not find the right information. 
 
