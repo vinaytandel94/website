@@ -22,7 +22,6 @@ header {
 }
 
 header #branding{
-   /*float:left;*/
     float:none;
 	margin: 0 0 10px 0;
     text-align:center;
@@ -279,8 +278,6 @@ header a:hover{
 
 
 
-
-
 /* Main Event Articles */
 #main {
 	background: #35424a;
@@ -303,6 +300,7 @@ ul#services li{
 }
 
 
+
 /* Contact Page */
 #map {
 	width: 100%;
@@ -311,6 +309,26 @@ ul#services li{
 	border: 0;
 }
 
+/* Social Media */
+.socButton {
+	text-decoration: none;
+	display: inline-block;
+	padding: 10px 14px;
+	/*font-weight: bold;*/
+	margin: 10px 4px 0 4px;
+	background: rgba(0, 0, 0, .2);
+	color: rgba(255, 255, 255, .4);
+	border-radius: 3px; 
+	transition: .3s ease-in-out;
+}.socButton:hover {
+	opacity: 1;
+}.instagram {
+	background:  linear-gradient(to bottom, #f15245 0%,#d92e7f 100%);
+}.facebook {
+	background: rgba(59, 89, 152, 1);
+}.instagram:hover, .facebook:hover  {
+	color: rgba(255, 255, 255, 1);
+}
 /* Footer */
 footer {
   padding:20px;
@@ -336,7 +354,6 @@ footer {
   }
 }
 
-
 .button {
   font-size: 1em;
   background: #0000;
@@ -361,6 +378,7 @@ footer {
 }	h3 {
 	margin: 0;
 }
+
 
 /* For mobile phones: */
 @media screen and (min-width: 500px) {
